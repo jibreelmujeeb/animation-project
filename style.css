@@ -1,0 +1,248 @@
+.sky {
+  height: 44vh;
+  width: 100%;
+}
+.house {
+  margin-top: -67rem;
+  width: 98%;
+}
+.colour {
+  border: solid 4px #58f758;
+  margin-top: -20px;
+}
+.road {
+  width: 100%;
+  height: 25vh;
+}
+.secondRoad {
+  border: 2px solid #313030;
+  margin-top: -10px;
+  height: 10vh;
+  background-color: #313030;
+}
+.line {
+  border: 2px solid #98771a;
+  margin: -10px;
+}
+.roadLight {
+  width: 100px;
+  height: 22vh;
+  position: relative;
+  top: -199px;
+  left: 590px;
+}
+.roadLight2 {
+  position: relative;
+  width: 100px;
+  height: 22vh;
+  top: -199px;
+  left: 850px;
+}
+.road2 {
+  width: 100%;
+  position: relative;
+  top: -135px;
+  height: 22vh;
+}
+ body {
+  overflow: hidden;
+} 
+.plane {
+  position: relative;
+  top: -839px;
+  left: 1250px;
+  animation: plane 2s linear infinite;
+}
+
+.street {
+  width: 100px;
+  height: 25vh;
+  position: absolute;
+  top: 500px;
+  left: 110px;
+}
+
+.street2 {
+  width: 100px;
+  height: 25vh;
+  position: absolute;
+  top: 270px;
+  left: 330px;
+}
+
+.egglefly {
+  width: 160px;
+  height: 25vh;
+  position: absolute;
+  top: 140px;
+  left: 240px;
+}
+.airHelicopter {
+  position: relative;
+  top: -710px;
+  width: 200px;
+  left: 1000px;
+  animation: airHelicopter 4s linear infinite;
+}
+.image1 {
+  position: relative;
+  top: -680px;
+  height: 25vh;
+  left: 1000px;
+  animation: image1 16s linear infinite;
+}
+.image2 {
+  position: relative;
+  top: -670px;
+  height: 25vh;
+  right: 1000px;
+  animation: image2 16s linear infinite;
+}
+.image3 {
+  position: relative;
+  top: -590px;
+  height: 31vh;
+  left: 500px;
+  animation: image3 4s linear infinite;
+}
+.image4 {
+  position: relative;
+  top: -610px;
+  height: 31vh;
+  left: 500px;
+  animation: image3 3s linear infinite;
+}
+
+.image5 {
+  position: relative;
+  top: -730px;
+  height: 36vh;
+  left: 1500px;
+  animation: image5 3s linear infinite;
+}
+.image6 {
+  position: relative;
+  top: -630px;
+  height: 15vh;
+  right: 500px;
+  animation: image6 2s linear infinite;
+}
+
+.image7 {
+  position: relative;
+  top: -580px;
+  height: 15vh;
+  right: 700px;
+  animation: image7 6s linear infinite;
+}
+
+.one{
+  position: relative;
+  top: -530px;
+  right: 1000px;
+  animation: one 2s linear infinite;
+}
+
+.two{
+  position: relative;
+  top: -530px;
+  height: 30vh;
+  right: 1500px;
+  animation: two 4s linear infinite;
+}
+
+.three{
+  position: relative;
+  top: -710px;
+  right: -150px;
+}
+
+.four{
+  position: relative;
+  top: -950px;
+  left: 210px;
+}
+
+@keyframes plane {
+  from {
+    transform: translateX(20px);
+  }
+  to {
+    transform: translateX(-1560px);
+  }
+}
+@keyframes airHelicopter {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translateX(-1560px);
+  }
+}
+@keyframes image1 {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translateX(-1860px);
+  }
+}
+@keyframes image2 {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translateX(1860px);
+  }
+}
+@keyframes image3 {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translateX(-1860px);
+  }
+}
+
+@keyframes image5 {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translateX(-1860px);
+  }
+}
+@keyframes image6 {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translateX(1860px);
+  }
+}
+@keyframes image7 {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translateX(1860px);
+  }
+}
+
+@keyframes one{
+  from{
+    transform: translate(0px);
+  }
+  to{
+    transform: translateX(1860px);
+  }
+}
+
+@keyframes two{
+  fom{
+    transform: translate(0px);
+  }
+  to{
+    transform: translateX(1860px);
+  }
+}
